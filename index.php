@@ -7,7 +7,7 @@ $persons =
             "ricks" => ["hobby" => "gamen, voetbal"],
             "djimairo" => ["hobby" => "vissen"]],
         "Keep" => [
-            "kim" => ["hobby" => "koken"],
+            "kim" => ["hobby" => "gamen"],
             "ebram" => ["hobby" => "php, gamen"],
             "emma" => ["hobby" => "php, gamen"],
             "pedro" => ["hobby" => "php, gamen"]
