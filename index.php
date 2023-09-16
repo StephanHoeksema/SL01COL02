@@ -1,26 +1,25 @@
 <?php
-
-$persons =
-    [
+/**
+ * @var  $teams
+ * Gaan we gebruiken om een multi dimensional array uit te leggen.
+ */
+$teams = [
         "JeRiCan" => [
             "rickb" => ["hobby" => "php, gamen"],
             "ricks" => ["hobby" => "gamen, voetbal"],
-            "djimairo" => ["hobby" => "vissen"]],
+            "djimairo" => ["hobby" => "vissen"]
+        ],
         "Keep" => [
-            "kim" => ["hobby" => "gamen"],
-            "ebram" => ["hobby" => "php, gamen"],
-            "emma" => ["hobby" => "php, gamen"],
-            "pedro" => ["hobby" => "php, gamen"]
+            "kim" => ["hobby" => "eten koken"],
+            "ebram" => ["hobby" => "scholen, gamen"],
+            "emma" => ["hobby" => "hoofdsteden, gamen"],
+            "pedro" => ["hobby" => "schilderen, gamen"]
+        ],
+        "PSR" => [
+            "paul" => ["hobby" => "koeien"],
+            "sander" => ["hobby" => "katten"],
+            "rick b." => ["hobby" => "gamen"]
         ]
     ];
 
-//die(var_dump($persons));
-//echo "$persons[0]";
-foreach ($persons as $key => $value) {
-    echo "<br><hr>Team: <b>" .$key . "</b><br><hr>";
-    //die(var_dump($value));
-    foreach($value as $name => $hobby) {
-         echo $name . "<br>";
 
-    };
-}
